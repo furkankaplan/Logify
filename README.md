@@ -16,6 +16,21 @@ Thanks god that Xcode supports unicode. So you can add related emojis as a prefi
 
 It's not a magic that Logify reads the system logs related with your app from the Console app. It filters the result with the parameters of both `subsystem` and `category` set in your valuable Xcode project, sure in the logger manager.
 
+# How to use Logify cli?
+After set up the application, open terminal app. Run that command.
+
+ ```curl -L https://raw.githubusercontent.com/furkankaplan/Logify/main/Logify --output Logify```
+
+After the download finished, run that command.
+
+ ```chmod +x Logify ```
+ 
+As a last step, move the file to /usr/local/bin
+
+ ```mv Logify /usr/local/bin ```
+ 
+Here we goooo. 🚀🥳
+
 # What is next?
 
 It's brand new tool which is still being developed. All PRs and issues are accepted. Feel free to contact with me to discuss anything.
