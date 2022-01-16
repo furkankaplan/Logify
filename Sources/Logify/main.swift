@@ -1,1 +1,3 @@
-print("Hello, world!")
+import LogifyCore
+
+Logifier.main()
