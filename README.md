@@ -28,6 +28,18 @@ After the download finished, run that command.
 As a last step, move the file to /usr/local/bin
 
  ```mv Logify /usr/local/bin ```
+
+# How to trace logs?
+
+Executue the command below to trace instant logs.
+
+```logify your_subsystem:your_category```
+
+# More resource?
+
+You can read the this Medium story what's Logify in detail and how to implement it with an example.
+
+https://betterprogramming.pub/colorizing-xcode-logs-to-improve-log-tracing-e67fbc727fd6
  
 Here we goooo. 🚀🥳
 
